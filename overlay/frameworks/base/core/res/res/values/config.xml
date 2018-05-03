@@ -407,6 +407,7 @@
     <bool name="config_setColorTransformAccelerated">true</bool>
 
     <!-- Disable buttons backlight configurations -->
+    <add-resource name="config_buttonBrightnessSettingDefault" type="integer">0</add-resource>
     <integer name="config_buttonBrightnessSettingDefault">0</integer>
 
     <!-- The default value for transition animation scale found in developer settings.
