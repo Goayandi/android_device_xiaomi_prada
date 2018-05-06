@@ -585,8 +585,9 @@
     <path name="voice-call">
         <ctl name="PRI_MI2S_RX_Voice Mixer CSVoice" value="1" />
         <ctl name="Voice_Tx Mixer TERT_MI2S_TX_Voice" value="1" />
-        <ctl name="RX1 Digital Volume" value="84" />
-        <ctl name="RX2 Digital Volume" value="84" />
+        <ctl name="RX1 Digital Volume" value="76" />
+        <ctl name="RX2 Digital Volume" value="76" />
+        <ctl name="RX3 Digital Volume" value="76" />
         <ctl name="DEC1 Volume" value="92" />
         <ctl name="DEC2 Volume" value="92" />
     </path>
