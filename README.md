@@ -1,4 +1,4 @@
-# Device Tree Repository for Xiaomi Redmi 3S (Land)
+# Device Tree Repository for Xiaomi Redmi 4 (Prada)
 
 ## Spec Sheet
 
@@ -7,9 +7,9 @@
 | CPU                     | Octa-core 1.4 GHz Cortex-A53      |
 | Chipset                 | Qualcomm MSM8937 Snapdragon 430   |
 | GPU                     | Adreno 505                        |
-| Memory                  | 2/3 GB                            |
+| Memory                  | 2 GB                              |
 | Shipped Android Version | 6.0.1                             |
-| Storage                 | 16/32 GB                          |
+| Storage                 | 16 GB                             |
 | MicroSD                 | Up to 256 GB                      |
 | Battery                 | 4100 mAh (non-removable)          |
 | Dimensions              | 139.3 x 69.6 x 8.5 mm             |
@@ -20,7 +20,7 @@
 
 ## Device Picture
 
-![Redmi 3S](http://cdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-3-pro-2.jpg "Redmi 3S")
+![Redmi 4](https://gloimg.gbtcdn.com/gb/pdm-product-pic/Electronic/2017/04/05/goods-img/1502739357116403210.jpg "Redmi 4")
 
 ## Copyright
 
