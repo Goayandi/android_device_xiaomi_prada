@@ -19,7 +19,7 @@
 
 set -e
 
-DEVICE=land
+DEVICE=prada
 VENDOR=xiaomi
 
 # Load extractutils and do some sanity checks

@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-ifeq ($(TARGET_DEVICE),land)
+ifeq ($(TARGET_DEVICE),prada)
 
 LOCAL_PATH := $(call my-dir)
 
@@ -77,8 +77,8 @@ ifneq ($(TARGET_RPM_SYSTEM_STAT),)
     LOCAL_CFLAGS += -DRPM_SYSTEM_STAT=\"$(TARGET_RPM_SYSTEM_STAT)\"
 endif
 
-LOCAL_MODULE := android.hardware.power@1.0-service.land
-LOCAL_INIT_RC := android.hardware.power@1.0-service.land.rc
+LOCAL_MODULE := android.hardware.power@1.0-service.prada
+LOCAL_INIT_RC := android.hardware.power@1.0-service.prada.rc
 LOCAL_SHARED_LIBRARIES += android.hardware.power@1.0
 
 LOCAL_SHARED_LIBRARIES += vendor.lineage.power@1.0_vendor

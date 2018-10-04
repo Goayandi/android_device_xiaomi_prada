@@ -14,4 +14,5 @@
 # limitations under the License.
 #
 
-add_lunch_combo lineage_land-userdebug
+add_lunch_combo lineage_prada-userdebug
+add_lunch_combo lineage_prada-eng

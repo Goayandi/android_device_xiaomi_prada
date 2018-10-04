@@ -27,10 +27,10 @@ inline const char* BtmGetDefaultName()
 	property_get("ro.product.wt.boardid", board_id, "");
 
 	if (!strcmp("S88537AB1", board_id)) {
-		return "Xiaomi Redmi 3X";
+		return "Xiaomi Redmi 4";
 	}
 
-	return "Xiaomi Redmi 3S";
+	return "Xiaomi Redmi 4";
 }
 
 #define BTM_DEF_LOCAL_NAME BtmGetDefaultName()

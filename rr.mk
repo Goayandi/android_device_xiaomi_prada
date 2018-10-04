@@ -20,21 +20,21 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 
-# Inherit from land device
+# Inherit from prada device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Inherit some common RR stuff
 $(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi 3S
-PRODUCT_DEVICE := land
+PRODUCT_MODEL := Redmi 4
+PRODUCT_DEVICE := prada
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := rr_land
+PRODUCT_NAME := rr_prada
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-TARGET_VENDOR_PRODUCT_NAME := land
+TARGET_VENDOR_PRODUCT_NAME := prada
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="land-user 6.0.1 MMB29M V9.5.1.0.MALMIFA release-keys"

@@ -68,7 +68,7 @@ static bool is3GBram() {
     return sys.totalram > 2048ull * 1024 * 1024;
 }
 
-static void import_kernel_cmdline_land(bool in_qemu,
+static void import_kernel_cmdline_prada(bool in_qemu,
                            const std::function<void(const std::string&, const std::string&, bool)>& fn) {
     std::string cmdline;
     android::base::ReadFileToString("/proc/cmdline", &cmdline);
@@ -148,11 +148,11 @@ static void init_alarm_boot_properties() {
 
 static void variant_properties() {
     std::string product = GetProperty("ro.product.name", "");
-    if (product.find("land") == std::string::npos)
+    if (product.find("prada") == std::string::npos)
         return;
 
     // Get board_id from cmdline
-    import_kernel_cmdline_land(false, parse_cmdline_boardid);
+    import_kernel_cmdline_prada(false, parse_cmdline_boardid);
 
     // Set board id
     property_set("ro.product.wt.boardid", board_id.c_str());

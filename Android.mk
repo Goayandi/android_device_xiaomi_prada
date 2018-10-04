@@ -26,7 +26,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),land)
+ifeq ($(TARGET_DEVICE),prada)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 

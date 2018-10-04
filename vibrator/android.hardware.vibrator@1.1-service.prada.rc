@@ -8,7 +8,7 @@ on early-boot
     chmod 0444 /sys/devices/virtual/timed_output/vibrator/vtg_max
     chmod 0444 /sys/devices/virtual/timed_output/vibrator/vtg_min
 
-service vibrator-1-1 /vendor/bin/hw/android.hardware.vibrator@1.1-service.land
+service vibrator-1-1 /vendor/bin/hw/android.hardware.vibrator@1.1-service.prada
     class hal
     user system
     group system

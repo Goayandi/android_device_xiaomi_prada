@@ -333,7 +333,7 @@ PRODUCT_COPY_FILES += \
 
 # Power
 #PRODUCT_PACKAGES += \
-#    android.hardware.power@1.0-service.land
+#    android.hardware.power@1.0-service.prada
 # Spectrum
 PRODUCT_PACKAGES += \
     Spectrum
@@ -389,7 +389,7 @@ PRODUCT_COPY_FILES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    android.hardware.vibrator@1.1-service.land
+    android.hardware.vibrator@1.1-service.prada
 
 # VNDK-SP
 PRODUCT_PACKAGES += \
@@ -425,4 +425,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Inherit proprietary files
-$(call inherit-product-if-exists, vendor/xiaomi/land/land-vendor.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/prada/prada-vendor.mk)
